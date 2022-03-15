@@ -67,6 +67,7 @@ namespace ApiNetCoreVS
 
             app.UseRouting();
 
+
             app.UseCors(MyAllowSpecificOrigins);
 
             app.UseAuthorization();
